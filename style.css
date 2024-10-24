@@ -1,0 +1,74 @@
+* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 50vh;
+  height: 50vh;
+  border: 1px solid rgb(164, 164, 164);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+input {
+  border: 0.1px solid;
+  border-radius: 3px;
+  transition: outline 0.3 ease, transform 0.3 ease;
+  transition-delay: 0.1s;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 87%;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition-delay: 0.1s;
+}
+
+#input-title,
+#input-author {
+  width: 85%;
+  height: 30px;
+}
+
+#input-pages-checkbox-container {
+  width: 85%;
+  justify-content: space-around;
+}
+#input-pages {
+  width: 30%;
+  height: 25px;
+  margin-left: -9px;
+}
+#checkbox-read,
+#checkbox-not-read {
+  height: 25px;
+  width: 25px;
+  background-color: #000000;
+}
+
+#add-to-library-btn {
+  background-color: rgb(227, 140, 140);
+}
+#add-to-library-btn:hover {
+  background-color: rgb(224, 113, 113);
+  transform: scale(1.02);
+}
+
+#view-library-btn {
+  margin-bottom: 30px;
+  background-color: wheat;
+}
+#view-library-btn:hover {
+  background-color: rgb(240, 208, 147);
+  transform: scale(1.02);
+}
